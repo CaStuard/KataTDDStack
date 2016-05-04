@@ -7,8 +7,9 @@ import org.junit.Test;
 public class KataTDDStackTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void isEmpty() {
+		KataTDDStack Stack = new KataTDDStack();
+		assertTrue(Stack.isEmpty());
 	}
 
 }
